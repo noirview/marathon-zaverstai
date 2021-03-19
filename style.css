@@ -1,6 +1,108 @@
+/* Basic stylization */
+
 body {
     margin: 0;
     background-color: #EFE6E4;
     font-family: 'Montserrat', sans-serif;
     color: #533738;
+}
+
+/* Service classes */
+
+.header {
+    background-image: url(assets/header-background.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 170px;
+}
+
+.wrapper--small {
+    max-width: 1036px;
+}
+
+.wrapper--large {
+    max-width: 1200px;
+}
+
+.wrapper--small,
+.wrapper--large {
+    margin: 0 auto;
+}
+
+/* b:offer-button */
+
+.offer-button {
+    display: inline-block;
+    color: inherit;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.38px;
+    text-decoration: none;
+    background-color: #CC8B86;
+    padding: 25px 65px;
+}
+
+/* header */
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    line-height: 19.5px;
+    padding: 35px 0;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+.header__logo-text {
+    text-transform: uppercase;
+    font-size: inherit;
+    line-height: inherit;
+    margin: 0;
+    font-weight: inherit;
+}
+
+.header__page-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.header__page-item {
+    margin: 0 13px;
+}
+
+.header__page-link,
+.header__telephone {
+    text-decoration: none;
+    color: inherit
+}
+
+/* intro */
+
+.header__intro {
+    margin-left: 82px;
+    width: 535px;
+    margin-top: 55px;
+}
+
+.header__heading {
+    width: 100%;
+    font-size: 50px;
+    line-height: 62px;
+    margin: 0;
+}
+
+.header__promo {
+    width: 80%;
+    font-size: 18px;
+    line-height: 30px;
 }
