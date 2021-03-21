@@ -24,8 +24,7 @@ body {
     max-width: 1200px;
 }
 
-.wrapper--small,
-.wrapper--large {
+.wrapper--small, .wrapper--large {
     margin: 0 auto;
 }
 
@@ -80,8 +79,7 @@ body {
     margin: 0 13px;
 }
 
-.header__page-link,
-.header__telephone {
+.header__page-link, .header__telephone {
     text-decoration: none;
     color: inherit
 }
@@ -105,4 +103,68 @@ body {
     width: 80%;
     font-size: 18px;
     line-height: 30px;
+}
+
+/* about us */
+
+.about-us {
+    padding-top: 25px;
+}
+
+.about-us__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.about-us__heading {
+    width: 100%;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.about-us__text {
+    width: 520px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.about-us__paragraph {
+    margin: 0;
+}
+
+.about-us__paragraph:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.about-us__merit {
+    width: 100%;
+    background-color: #8D7370;
+    color: #FFFFFF;
+}
+
+.about-us__merit-list {
+    padding: 80px 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-us__merit-item {
+    font-size: 30px;
+    line-height: 37px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-us__merit-amount {
+    font-size: 50px;
+    line-height: 62px;
+    display: block;
+    text-align: center;
 }
